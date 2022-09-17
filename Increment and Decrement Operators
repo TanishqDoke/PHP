@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Tutorials</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Increment/Decrement Operator</h1>
+        <?php
+        echo"<br>";
+        $variable1=25;
+        echo "Original Value is $variable1";
+        echo"<br>";
+
+        $variable1++;
+        echo "Post increment $variable1";
+        echo"<br>";
+
+        $variable1--;
+        echo "Post decrement $variable1";
+        echo"<br>";
+
+        ++ $variable1;
+        echo "Pre increment $variable1";
+        echo"<br>";
+
+        -- $variable1;
+        echo "Pre decrement $variable1";
+        echo"<br>";
+
+       
+        ?>
+    </div>
+</body>
+</html>
