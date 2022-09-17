@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Tutorials</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Types in PHP</h1>
+        <?php
+        
+        echo "<br>Data Types<br>";
+         $variable1="This is a string";
+         echo var_dump($variable1);
+         echo"<br>";
+
+         $variable1=37.1;
+         echo var_dump($variable1);
+         echo"<br>";
+
+         $variable1=TRUE;
+         echo var_dump($variable1);
+         echo"<br>";
+
+         $variable1=37;
+         echo var_dump($variable1);
+         echo"<br>";
+
+         $variable1=[1,2,3,4];
+         echo var_dump($variable1);
+         echo"<br>";
+
+
+
+        // echo var_dump($variable1);
+        // echo"<br>";
+       
+        ?>
+    </div>
+</body>
+</html>
