@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Constant in PHP</h1>
         <?php
-        define('Pi',3.142);
+        define('Pi',3.142);    // Sets value of Pi to 3.142.
 
         echo Pi;
          echo"<br>";
