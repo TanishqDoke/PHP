@@ -12,10 +12,10 @@
         <?php
         echo"<br>";
         $variable1 =25;
-        $variable2=48;
+        $variable2=45;
         echo"Variable1=25";
         echo"<br>";
-        echo"Variable2=48";
+        echo"Variable2=45";
         echo"<br>";
         echo "Addition of variable1 and variable2 =";
         echo $variable1+$variable2;
